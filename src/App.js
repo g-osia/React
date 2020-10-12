@@ -1,26 +1,51 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+
+// function Hello() {
+//   return <h1>Hello!</h1>
+// }
+
+// function Greeting({name, age, country}) {
+
+//   const message = age
+//   ? `You are ${age}.`
+//   : "I don't know your age."
+
+//   const origin = country
+//   ?`You are from ${country}.`
+//   : 'I don\'t know where you are from.'
+
+//   return <div>
+//     <Hello/>
+//     {name}! { }
+//     {message} { }
+//     {origin}
+//   </div>
+// }
+
+// function App() {
+//   return (
+//    <div>
+//       <Greeting name = 'Gosia' age = {32} country = 'Poland'/>
+//       <Greeting name = 'Dori'/>
+
+//    </div>
+// )
+// }
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Week 2</h1>
+
+      <p>
+        Still want to explore React more!!!
+      </p>
+
     </div>
-  );
+  )
 }
 
 export default App;
